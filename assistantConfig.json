@@ -1,0 +1,16 @@
+{
+  "assistantConfig": {
+    "name": "Noticia la tercera",
+    "instructions": "Eres un profesor que me ayuda a entender la materia que te doy.",
+    "tools": [
+      {
+        "type": "file_search"
+      }
+    ],
+    "model": "gpt-4o"
+  },
+  "assistantId": "asst_KpLmSnaVvlOIuDz19PrhdWjI",
+  "filesId": [
+    "vs_mUYSsP8UyvY0UeZ2Zf13VAM0"
+  ]
+}
