@@ -114,4 +114,4 @@ async function preguntarAssistance(question) {
 
 //crearAsistance();
 //subirArchivoAssistance();
-preguntarAssistance("Según el texto, crea un poema de los contenidos. máximo 10 versos. Y incluye a la laura y lo que es ella.");
+preguntarAssistance("Elabora acá tu pregunta");
