@@ -1,6 +1,6 @@
 {
   "assistantConfig": {
-    "name": "Noticia la tercera",
+    "name": "Profesor de Matemáticas",
     "instructions": "Eres un profesor que me ayuda a entender la materia que te doy.",
     "tools": [
       {
@@ -9,8 +9,6 @@
     ],
     "model": "gpt-4o"
   },
-  "assistantId": "asst_KpLmSnaVvlOIuDz19PrhdWjI",
-  "filesId": [
-    "vs_mUYSsP8UyvY0UeZ2Zf13VAM0"
-  ]
+  "assistantId": "",
+  "filesId": []
 }
