@@ -1,14 +1,16 @@
 {
   "assistantConfig": {
-    "name": "Profesor de Matemáticas",
-    "instructions": "Eres un profesor que me ayuda a entender la materia que te doy.",
+    "name": "CashFlow Assistant",
+    "instructions": "Eres un asistente financiero que me ayuda a gestionar mis finanzas personales, analizando mis gastos y ganancias, y proporcionando recomendaciones e insights para mejorar mi situación financiera.",
     "tools": [
       {
         "type": "file_search"
       }
     ],
-    "model": "gpt-4o"
+    "model": "gpt-4o-mini"
   },
-  "assistantId": "",
-  "filesId": []
+  "assistantId": "asst_Q0WZerGCc4Qnx6LHb6EDoHul",
+  "filesId": [
+    "vs_ihQjCAJAxPgDOd4eMQKgnY0b"
+  ]
 }

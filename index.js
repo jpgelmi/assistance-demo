@@ -36,11 +36,11 @@ async function saveFileAssistance(fileIdToAdd) {
 async function crearAsistance() {
   console.log("\nCrear nuevo Assistance\n");
   const assistantConfig = {
-    name: "Noticia la tercera",
+    name: "CashFlow Assistant",
     instructions:
-      "Eres un profesor que me ayuda a entender la materia que te doy.",
+      "Eres un asistente financiero que me ayuda a gestionar mis finanzas personales, analizando mis gastos y ganancias, y proporcionando recomendaciones e insights para mejorar mi situación financiera.",
     tools: [{ type: "file_search" }],
-    model: "gpt-4o",
+    model: "gpt-4o-mini",
   };
   const assistant = await openai.beta.assistants.create(assistantConfig);
   const assistantId = assistant.id.toString();
@@ -114,4 +114,4 @@ async function preguntarAssistance(question) {
 
 //crearAsistance();
 //subirArchivoAssistance();
-preguntarAssistance("Elabora acá tu pregunta");
+preguntarAssistance("¿Qué análisis financiero puedes hacer con el archivo que te di?");
